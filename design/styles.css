@@ -60,7 +60,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa; /* Light background */
+    background-color: #ffffff; /* Light background */
     color: #333;
 }
 
@@ -302,6 +302,7 @@ h1, h2, h3 {
     text-align: left;
     position: right;
     justify-content: right;
+    width: 90%;
 }
 
 .form-group {
@@ -336,3 +337,4 @@ h1, h2, h3 {
     padding: 15px;
     font-size: 1.1em;
 }
+
