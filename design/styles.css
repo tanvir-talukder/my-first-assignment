@@ -40,3 +40,153 @@
 .header .nav-button:hover {
     background-color: #4E47FF;
 }
+
+/* Hero Section */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light background */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    color: #212529;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition:  0.3s ease;
+  
+}
+
+.primary-btn {
+    background-color: #4E47FF; /* Purple */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    gap: 30px;
+    newline: nowrap;    
+    padding: 12px 36px;
+    border-radius: 8px;
+
+     height: 48 px;
+     width: 174px;
+
+.primary-btn:hover {
+    background-color: #4E47FF;
+    padding: 498px 633px 3084px 633px;
+    border-radius: 8px;
+}
+}
+
+.secondary-btn {
+    background-color: #4E47FF; /* Light gray */
+    color: #ffffff;
+
+}
+
+.secondary-btn:hover {
+    background-color: #ffffff;
+}
+
+
+
+
+/* See It in Action Section */
+.see-it-in-action {
+    background-color: #ffffff;
+    padding: 20PX 0 20PX 0;
+}
+
+.see-it-in-action .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.see-it-in-action .content-left {
+    flex: 1;
+}
+
+.see-it-in-action .content-left h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.see-it-in-action .content-left p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.see-it-in-action .content-right {
+    flex: 1;
+    text-align: right;
+}
+
+.see-it-in-action .action-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Productive Users Section */
+.productive-users {
+    background-color: #bdd2f1;
+    padding: 80px 0;
+    text-align: center;
+    border-radius: 100px;
+    padding: 100px 0 100px 0;
+    border: 10px;
+    justify-content: space-around
+    border-color: none;
+}
+
+.productive-users h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.productive-users .stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.productive-users .stat-item h3 {
+    font-size: 3.5em;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.productive-users .stat-item p {
+    font-size: 1.1em;
+    color: #555;
+}
