@@ -5,3 +5,38 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* Header */
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px urlsolid #eee;
+    background-image: url('../photo/Hero-bg.png');
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    padding:50px 150px;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+.header .nav-button {
+    background-color: #4E47FF;
+    color: white;
+     padding: 12px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.header .nav-button:hover {
+    background-color: #4E47FF;
+}
